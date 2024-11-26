@@ -25,3 +25,13 @@ echo "1234" | copy
 ```
 
 After that, you can paste "1234" anywhere else.
+
+## paste
+
+You need *xclip* to this to work properly. A simple command to print what is copied in your clipboard. For example, you could copy a link somewhere, then run in bash
+
+```bash
+curl $(paste)
+```
+
+to make a simple GET request to the url you copied. You can also pipe the currente clipboard to other commands!
