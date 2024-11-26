@@ -2,6 +2,8 @@
 
 A bunch of useful tools for making your life easier! Tested on python 3.12.7.
 
+![image](assets/elmo-burning.gif)
+
 - [ELMO Tools](#elmo-tools)
   - [Setup](#setup)
     - [Shell (bash,zsh,xonsh...)](#shell-bashzshxonsh)
@@ -14,6 +16,7 @@ A bunch of useful tools for making your life easier! Tested on python 3.12.7.
     - [docker-clean](#docker-clean)
     - [size](#size)
     - [try](#try)
+  - [Acknowledgements](#acknowledgements)
 
 ## Setup
 
@@ -110,3 +113,9 @@ try curl -f localhost:1234
 ```
 
 Will try to access localhost:1234 until it reply an acceptable HTTP status code. Useful for checking if a service is up, for example.
+
+## Acknowledgements
+
+For now just some simple tools. In the future I intend to add some crazy stuff I created to make my life easier =).
+
+Made with love by Daniel Santana!
