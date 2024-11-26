@@ -51,3 +51,13 @@ A very cool utility to calculate with more precision the size of file and folder
 ```bash
 size --help
 ```
+
+## try
+
+Try any command until it works. For example
+
+```bash
+try curl -f localhost:1234
+```
+
+Will try to access localhost:1234 until it reply an acceptable HTTP status code. Useful for checking if a service is up, for example.

@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+
+flag=true
+while $flag; do
+  if (exec "$@"); then
+    flag=false
+  else
+    sleep 1
+  fi
+done
