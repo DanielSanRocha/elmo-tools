@@ -1,0 +1,6 @@
+#!/bin/bash
+
+yes | docker kill $(docker ps -aq)
+yes | docker rm -vf $(docker ps -aq)
+yes | docker rmi -f $(docker images -aq)
+yes | docker system prune

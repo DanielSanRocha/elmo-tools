@@ -35,3 +35,11 @@ curl $(paste)
 ```
 
 to make a simple GET request to the url you copied. You can also pipe the currente clipboard to other commands!
+
+## docker-clean
+
+Kill all containers, remove all containers, delete all images the purge docker cache. Very useful when you want to free up space on your computer. Usage:
+
+```bash
+docker-clean
+```
