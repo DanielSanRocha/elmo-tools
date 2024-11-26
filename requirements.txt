@@ -1,1 +1,2 @@
 clipboard==0.0.4
+humanfriendly==10.0

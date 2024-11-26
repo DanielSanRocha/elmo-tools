@@ -43,3 +43,11 @@ Kill all containers, remove all containers, delete all images the purge docker c
 ```bash
 docker-clean
 ```
+
+## size
+
+A very cool utility to calculate with more precision the size of file and folders and find folders/files that are occupying too much space. For more info, run
+
+```bash
+size --help
+```
