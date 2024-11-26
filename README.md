@@ -16,6 +16,7 @@ A bunch of useful tools for making your life easier! Tested on python 3.12.7.
     - [docker-clean](#docker-clean)
     - [size](#size)
     - [try](#try)
+  - [TODOs](#todos)
   - [Acknowledgements](#acknowledgements)
 
 ## Setup
@@ -113,6 +114,13 @@ try curl -f localhost:1234
 ```
 
 Will try to access localhost:1234 until it reply an acceptable HTTP status code. Useful for checking if a service is up, for example.
+
+## TODOs
+
+1) Make it easier to run all commands inside a virtualenv (pyenv,poetry,venv...)
+2) All python code is linted with ruff. Enforce this in the repo.
+3) All bash code is linted with shfmt. Enforce this in the repo.
+4) Add a development guide.
 
 ## Acknowledgements
 
